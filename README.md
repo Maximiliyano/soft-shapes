@@ -6,17 +6,7 @@ Create 4 different shapes (Square, Rectangle, Triangle, Circle) that can be part
 -	The area of a Triangle is base multiplied by height divided by 2
 -	The area of a Circle is the square of its radius multiplied by π
 
-The default sort order of a list of shapes is ascending on area size:
-Example:
-
-<sub>var side = 1.1234D;
-var radius = 1.1234D;
-var base = 5D;
-var height = 2D;
-var shapes = new List<Shape>{ new Square(side),
-                            new Circle(radius),
-                            new Triangle(base, height) };
-shapes.Sort();</sub>
+The default sort order of a list of shapes is ascending on area size
 
 As a result, your shapes should be sorted correctly ascending on area size.
 
