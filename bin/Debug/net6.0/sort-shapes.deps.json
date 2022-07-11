@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "soft-shapes/1.0.0": {
+      "sort-shapes/1.0.0": {
         "runtime": {
-          "soft-shapes.dll": {}
+          "sort-shapes.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "soft-shapes/1.0.0": {
+    "sort-shapes/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,15 @@
+D:\Local\C#\sort-shapes\bin\Debug\net6.0\sort-shapes.exe
+D:\Local\C#\sort-shapes\bin\Debug\net6.0\sort-shapes.deps.json
+D:\Local\C#\sort-shapes\bin\Debug\net6.0\sort-shapes.runtimeconfig.json
+D:\Local\C#\sort-shapes\bin\Debug\net6.0\sort-shapes.dll
+D:\Local\C#\sort-shapes\bin\Debug\net6.0\sort-shapes.pdb
+D:\Local\C#\sort-shapes\obj\Debug\net6.0\sort-shapes.csproj.AssemblyReference.cache
+D:\Local\C#\sort-shapes\obj\Debug\net6.0\sort-shapes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Local\C#\sort-shapes\obj\Debug\net6.0\sort-shapes.AssemblyInfoInputs.cache
+D:\Local\C#\sort-shapes\obj\Debug\net6.0\sort-shapes.AssemblyInfo.cs
+D:\Local\C#\sort-shapes\obj\Debug\net6.0\sort-shapes.csproj.CoreCompileInputs.cache
+D:\Local\C#\sort-shapes\obj\Debug\net6.0\sort-shapes.dll
+D:\Local\C#\sort-shapes\obj\Debug\net6.0\refint\sort-shapes.dll
+D:\Local\C#\sort-shapes\obj\Debug\net6.0\sort-shapes.pdb
+D:\Local\C#\sort-shapes\obj\Debug\net6.0\sort-shapes.genruntimeconfig.cache
+D:\Local\C#\sort-shapes\obj\Debug\net6.0\ref\sort-shapes.dll
