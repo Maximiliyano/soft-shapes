@@ -1,11 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
 
-class Shape
+class Program
 {
     static void Main(string[] args)
     {
-        Shape a = new Shape();
+        Program a = new Program();
         a.Square();
         a.Rectangle();
         a.Triangle();
