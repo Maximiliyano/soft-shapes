@@ -3,16 +3,6 @@ using System;
 
 class Program
 {
-    abstract class Shape : IComparable<Shape>
-    {
-        public abstract double CalcArea();
-
-        public int CompareTo(Shape other)
-        {
-            double area = CalcArea();
-            return area.CompareTo(other.CalcArea());
-        }
-    }
     static void Main(string[] args)
     {
         var shapes = new List<Shape>{ new Square(6), new Circle(2), new Triangle(4, 5), new Rectangle(4, 5) };
@@ -21,76 +11,76 @@ class Program
         foreach (var shape in shapes)
             Console.WriteLine(shape + "\n");
     }
+}
+abstract class Shape : IComparable<Shape>
+{
+    public abstract double CalcArea();
 
-    class Square : Shape
+    public int CompareTo(Shape other)
     {
-        private double Height;
+        double area = CalcArea();
+        return area.CompareTo(other.CalcArea());
+    }
+}
+class Square : Shape
+{
+    private double Height;
 
-        public Square(double side)
-        {
-            Height = side;
-        }
-
-        public override double CalcArea()
-        {
-            return Math.Pow(Height, 2);
-        }
-        public override string ToString()
-            => $"[Square]\nHeight: {Height}\nArea: {CalcArea()}";
+    public Square(double side)
+    {
+        Height = side;
     }
 
-    class Rectangle : Shape
+    public override double CalcArea()
+        => Math.Pow(Height, 2);
+    public override string ToString()
+        => $"[Square]\nHeight: {Height}\nArea: {CalcArea()}";
+}
+
+class Rectangle : Shape
+{
+    private double Length, Breadth;
+
+    public Rectangle(double length, double breadth)
     {
-        private double Length, Breadth;
-
-        public Rectangle(double length, double breadth)
-        {
-            Length = length;
-            Breadth = breadth;
-        }
-
-        public override double CalcArea()
-        {
-            return Length * Breadth;
-        }
-        public override string ToString()
-            => $"[Rectangle]\nLength: {Length}\nBreadth: {Breadth}\nArea: {CalcArea()}";
+        Length = length;
+        Breadth = breadth;
     }
 
-    class Triangle : Shape
+    public override double CalcArea()
+        => Length * Breadth;
+    public override string ToString()
+        => $"[Rectangle]\nLength: {Length}\nBreadth: {Breadth}\nArea: {CalcArea()}";
+}
+
+class Triangle : Shape
+{
+    private double Bredth, Height;
+
+    public Triangle(double bredth, double height)
     {
-        private double Bredth, Height;
-
-        public Triangle(double bredth, double height)
-        {
-            Height = height;
-            Bredth = bredth;
-        }
-
-        public override double CalcArea()
-        {
-            return (Bredth * Height) / 2;
-        }
-
-        public override string ToString()
-            => $"[Triangle]\nBase: {Bredth}\nHeight: {Height}\nArea: {CalcArea()}";
+        Height = height;
+        Bredth = bredth;
     }
+
+    public override double CalcArea()
+        => (Bredth * Height) / 2;
+
+    public override string ToString()
+        => $"[Triangle]\nBase: {Bredth}\nHeight: {Height}\nArea: {CalcArea()}";
+}
     
-    class Circle : Shape
+class Circle : Shape
+{
+    private double Radius;
+
+    public Circle(double radius)
     {
-        private double Radius;
-
-        public Circle(double radius)
-        {
-            Radius = radius;
-        }
-
-        public override double CalcArea()
-        {
-            return Math.PI * Math.Pow(Radius, 2);
-        }
-        public override string ToString()
-            => $"[Circle]\nRadius: {Radius}\nArea: {CalcArea()}";
+        Radius = radius;
     }
-    
+
+    public override double CalcArea()
+        => Math.PI * Math.Pow(Radius, 2);
+    public override string ToString()
+        => $"[Circle]\nRadius: {Radius}\nArea: {CalcArea()}";
 }

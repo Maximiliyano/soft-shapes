@@ -7,6 +7,12 @@
     <list default="true" id="1c988a23-8147-41f6-9711-b643fb71817e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.sort-shapes.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.sort-shapes.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/sort-shapes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/sort-shapes.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/sort-shapes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/sort-shapes.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/sort-shapes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/sort-shapes.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/refint/sort-shapes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/refint/sort-shapes.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/sort-shapes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/sort-shapes.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/sort-shapes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/sort-shapes.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657537812354</updated>
-      <workItem from="1657537847042" duration="7002000" />
+      <workItem from="1657537847042" duration="7473000" />
     </task>
     <servers />
   </component>
