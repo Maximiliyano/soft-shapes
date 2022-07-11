@@ -9,14 +9,14 @@ Create 4 different shapes (Square, Rectangle, Triangle, Circle) that can be part
 The default sort order of a list of shapes is ascending on area size:
 Example:
 
-var side = 1.1234D;
+<sub>var side = 1.1234D;
 var radius = 1.1234D;
 var base = 5D;
 var height = 2D;
 var shapes = new List<Shape>{ new Square(side),
                             new Circle(radius),
                             new Triangle(base, height) };
-shapes.Sort();
+shapes.Sort();</sub>
 
 As a result, your shapes should be sorted correctly ascending on area size.
 
